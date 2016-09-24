@@ -250,3 +250,39 @@ u.say();*/
 
 var n = new Name("Alex");
 n.say();*/
+
+/*var Friend = function(mood) {
+	this.mood = mood;
+
+	if (mood === "nice") {
+		this.talk = function() {
+			document.write("Hellow )");
+		};
+	}
+	else if (mood === "bad") {
+		this.talk = function() {
+			document.write("very nice )");
+		};
+	}
+	else {
+		this.talk = function() {
+			document.write("Hay");
+		};
+	}
+}
+
+var newFrend = prompt('Your mood (nice/bad):', "");
+var David = new Friend(newFrend);
+
+David.talk();*/
+
+var Test = function(age) {
+	this.age = age;
+	this.rage = function() {
+		document.write(parseInt(age) * 2);
+	}
+}
+
+
+var p = new Test(prompt('age ?', ''));
+p.rage();
