@@ -321,7 +321,7 @@ promise
 
 // :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-/*function* Generate(start, end) {
+function* Generate(start, end) {
 	for (let i = start; i <= end; i++) yield i;
 }
 
@@ -337,11 +337,5 @@ for (let code of Generate2()) {
 	str += String.fromCharCode(code);
 }
 
-document.write(str);*/
+document.write(str);
 
-// :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-
-
-// :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-// :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
