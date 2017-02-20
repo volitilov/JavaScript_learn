@@ -50,9 +50,9 @@ for (var i = 0; i < test.length; i++) {
 
 // num.style.color = 'red';
 // num.style.fontSize = '50px';
-window['content-holder'].style.listStyle = 'none';
+/*window['content-holder'].style.listStyle = 'none';
 window['content-holder'].style.padding = '0px';
-
+*/
 // let lin = document.getElementById('num');
 // lin.style.color = '';
 
@@ -75,7 +75,7 @@ document.getElementsByTagName('a')[0].style.color = 'red';*/
 
 // document.getElementsByTagName('div')[0].innerHTML += 'text example';
 
-var test = prompt('text', 'example');
-document.getElementsByTagName('div')[0].innerHTML += test;
+/*var test = prompt('text', 'example');
+document.getElementsByTagName('div')[0].innerHTML += test;*/
 
 // document.getElementsByTagName('nav')[0].hidden = true;
