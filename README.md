@@ -29,3 +29,7 @@
 Основные особенности JavaScript, на уровне базовых конструкций, типов, синтаксиса можно посмотреть по следующей ссылке
 
 [Основные оссобенности](https://learn.javascript.ru/javascript-specials)
+
+
+Надо изучить:
+[Прокси](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Proxy)
