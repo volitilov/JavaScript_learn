@@ -83,43 +83,6 @@ function test({tittle, height, width}) {
 
 document.write(test(options));*/
 
-// :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-// Например, декоратор defer(f, ms) ниже получает функцию f и 
-// возвращает обёртку вокруг неё, откладывающую вызов на ms 
-// миллисекунд:
-
-/*function defer(f, ms) {
-  return function() {
-    setTimeout(() => f.apply(this, arguments), ms)
-  }
-}
-
-function sayHi(who) {
-  document.write('Hi, ' + who);
-}
-
-let sayHiDeferred = defer(sayHi, 3000);
-sayHiDeferred('Bob'); // Hi, Bob через 3 секунды*/
-
-// :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-/*function test() {
-	let show = () => document.write(arguments[0]);
-	show();
-}
-
-test(1);*/
-
-// :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-/*let text = `kfsbh jklsdhfkjhsdkj
-			shfjs ksdjfh........`;
-
-let [num1, num2] = [1, 2];
-
-document.write(text + '<br>');
-document.write(`${num1} + ${num2} = ${num1 + num2}`);*/
 
 // :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -154,21 +117,6 @@ let user = {
 document.write(user.fullname + '<br>');
 document.write(user.getNames());*/
 
-// :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-/*class Test1 {
-	constructor(name) {
-		this.name = name
-	}
-
-	sayHi() {
-		return 'Hi ' + this.name;
-	}
-}
-
-let test = new Test1('Bob');
-
-document.write(test.sayHi());*/
 
 // :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -237,44 +185,6 @@ class Test2 extends Test1 {};
 
 document.write(new Test2('Bob', 'Dikens').hi());*/
 
-// :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-/*let mas = [1, 2, 3];
-
-for (let value of mas) {
-	document.write(value + ' ' + '<br>'); // 1 2 3
-}
-
-for (let i in mas) {
-	document.write(i + ' '); // 0 1 2
-}*/
-
-// :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-/*let map = new Map();
-
-map.set(1, 'test1');
-map.set(true, 'test3');
-map.set('str', 'test4');
-
-map
-	.set(2, 'lalka')
-	.set(3, 'lol');
-
-// document.write(map.get(1) + '<br>');
-
-for (let i of map.keys()) {
-	document.write(i + ' --> ' + map.get(i) + '<br>');
-}
-
-document.write('<hr>');
-
-for (let i of map.values()) {
-	document.write(i + ', ')
-}
-
-document.write('<hr>');
-document.write('Size map: ' + map.size);*/
 
 // :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

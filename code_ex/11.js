@@ -1,15 +1,5 @@
 // :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-/*export {one, two};
-// ..................................
-export default Object;
-import Object from './ex.js';
-// ..................................
-import {one, two} from './ex.js';
-import * as numbers from '.ex.js';*/
-
-// :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 /*let user = {};
 
 let proxy = new Proxy(user, {

@@ -38,3 +38,25 @@ console.log(myHupot(3, 10));
 
 //получаем общее количество времени на вызовы
 console.log(timers.hupot + ' ms');
+
+
+
+
+// :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+// Например, декоратор defer(f, ms) ниже получает функцию f и 
+// возвращает обёртку вокруг неё, откладывающую вызов на ms 
+// миллисекунд:
+
+function defer(f, ms) {
+  return function() {
+    setTimeout(() => f.apply(this, arguments), ms)
+  }
+}
+
+function sayHi(who) {
+  document.write('Hi, ' + who);
+}
+
+let sayHiDeferred = defer(sayHi, 3000);
+sayHiDeferred('Bob'); // Hi, Bob через 3 секунды
