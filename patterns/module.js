@@ -4,24 +4,18 @@
 // скрипт. Достаточно скачать и подключить, например, как внешний 
 // файл module.js
 
-var counterModule = (function(jQ) {
+export default class Counter {
+	counter = 0
 
-	// глобальная переменная скрипта (счётчик)
-	var counter = 0
-
-	// глобальная функция скрипта (получения счётчика)
-	var getCounter = function() {
+	getCounter = () => {
 		return counter;
 	}
 
-	// глобальная функция скрипта (увеличения счётчика)
-	var increaseCounter = function() {
+	increaseCounter = () => {
 		counter++;
 	}
 
-
-	return {
-		getCounter: getCounter,
-		increaseCounter: increaseCounter
+	decriseCounter = () => {
+		counter--;
 	}
-}(jQuery));
+}
